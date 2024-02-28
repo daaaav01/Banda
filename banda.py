@@ -21,10 +21,10 @@ class Banda:
         for m in self.musicos:
             print(m.tocar_instrumento())
     
-    def afinar_banda(self):
+    def mostrar_banda(self):
         for m in self.musicos:
             print(m.nombre)
-            print(m.afinar_instrumento())
+            print(m.instrumento.mostrar())
 
 if __name__ == "__main__":
     b = Banda()
