@@ -7,7 +7,10 @@ class Instrumento:
 
     def tocar(self):
         pass
-
+    
+    def mostrar(self):
+        return "instrumento: " + str(type(self)).split(".")[-1][:-2]
+    
 class Guitarra(Instrumento):
 
     def afinar(self):
@@ -80,7 +83,7 @@ class Violin(Instrumento):
     def tocar(self):
         print("tocando violin...")
 
-class flauta(Instrumento):
+class Flauta(Instrumento):
 
     def afinar(self):
         print("afinando flauta...")
