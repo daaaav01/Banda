@@ -8,8 +8,8 @@ Instrumento <|-- Piano
 Instrumento <|-- Bateria
 Instrumento <|-- Trompeta
 Instrumento <|-- Maracas
-Instrumento <|-- Vocales
-Instrumento <|-- Mezclador
+Instrumento <|-- Violin
+Instrumento <|-- Flauta
 
 Musico *-- Instrumento
 Banda *-- Instrumento
